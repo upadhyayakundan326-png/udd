@@ -6,8 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Uddipto Deka - Frontend Developer and aspiring UI/UX Designer. Explore my skills, experience and portfolio projects.">
-
+    <meta name="description" content="Uddipto Deka - Frontend Developer and aspiring UI/UX Designer.">
     <meta name="author" content="Uddipto Deka">
 
     <title>Uddipto Deka | Portfolio</title>
@@ -340,7 +339,6 @@
             section {
                 padding: 70px 7%;
             }
-
         }
 
         /* SMALL MOBILE */
@@ -367,7 +365,6 @@
             .intern-card {
                 padding: 22px;
             }
-
         }
 
     </style>
@@ -385,13 +382,9 @@
         <ul id="navLinks">
 
             <li><a href="#home">Home</a></li>
-
             <li><a href="#about">About</a></li>
-
             <li><a href="#skills">Skills</a></li>
-
             <li><a href="#internship">Experience</a></li>
-
             <li><a href="#contact">Contact</a></li>
 
         </ul>
@@ -436,14 +429,11 @@
 
         </div>
 
-
         <div class="profile">
 
             <img
-                src="./udipto2%20copy.jpeg"
+                src="./udipto2.jpeg"
                 alt="Uddipto Deka"
-                loading="eager"
-                onerror="this.style.display='none'; this.parentElement.style.background='#181824';"
             >
 
         </div>
@@ -598,11 +588,9 @@
     <script>
 
         const menuBtn = document.getElementById("menuBtn");
-
         const navLinks = document.getElementById("navLinks");
 
-
-        // Toggle mobile navigation
+        // Toggle mobile menu
 
         menuBtn.addEventListener("click", function () {
 
@@ -615,7 +603,7 @@
         });
 
 
-        // Close menu after clicking navigation link
+        // Close menu after clicking a link
 
         document.querySelectorAll("#navLinks a").forEach(function (link) {
 
